@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background: url(start-screen-gradient-background.png);
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo {
+    margin-left: 28px;
+}
+
+ul {
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 36px;
+
+}
+
+li {
+    position: relative;
+    display: inline-block;
+    padding: 0.1em 1.07em;
+    height: 24px;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 15px;
+    color: #CDCDCD;
+}
+
+.main-header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 3%;
+}
+
+.main-title {
+    margin-top: 8%;
+    margin-bottom: 15%;
+    width: 55%;
+}
+
+.text1 {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    color: #CDCDCD;
+    margin-top: 7%;
+    width: 5%;
+}
+
+.main-pic {
+    height: 728px;
+    width: 45%;
+
+}
+
+.button1 {
+    padding: 15px 45px;
+    background-color: #F1CDB3;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+.main1 {
+    height: 588px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.heading1 {
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    color: #545454;
+}
+
+.text2 {
+    margin-left: 5%;
+    height: 96px;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 15px;
+    color: #4C4C4C;
+}
+
+.p-text2 {
+    margin-top: 30px;
+}
+
+.pic1 {
+    margin-right: 5%;
+    height: 408px;
+}
+
+.main2 {
+    height: 877px;
+    padding-top: 80px;
+    align-items: center;
+    background-color: #F6F6F6;
+
+}
+
+.heading2 {
+    width: 100%;
+    height: 90px;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card {
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.name1 {
+    margin: 40px;
+}
+
+.button2 {
+    text-decoration: none;
+    color: black;
+    padding: 15px 50px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-top: 68px;
+}
+
+.pin1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.button3 {
+    text-decoration: none;
+    color: black;
+    padding: 15px 45px;
+    border: 1px solid #F1CDB3;
+    background-color: #F1CDB3;
+    border-radius: 30px;
+}
+
+.main3 {
+    padding-top: 80px;
+    height: 611px;
+}
+
+.heading3 {
+    width: 20%;
+    height: 90px;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.help {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.example1 {
+    align-items: center;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.main4 {
+    background-color: #F6F6F6;
+    height: 464px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.donation {
+    width: 32%;
+}
+
+.pic2 {
+    height: 261px;
+    width: 46%;
+}
+
+.heading4 {
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.don-heading4-1 {
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.pin2 {
+    width: 82%;
+    height: 43px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #F1CDB3;
+    border-radius: 9px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.button4 {
+    text-decoration: none;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #545454;
+}
+
+.don-heading4-2 {
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #B2B2B2;
+    width: 60%;
+}
+
+footer {
+    background: url(footer-gradient-background.png);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.end {
+    width: 100%;
+    text-align: center;
+    font-family: 'Georgia';
+    padding-top: 56px;
+    margin-left: 60px;
+}
+
+.mail {
+    text-decoration: none;
+    color: #F1CDB3;
+    padding-left: 10px;
+}
+
+.phone {
+    padding-left: 10px;
+}
+
+.e-mail, .tel {
+    display: flex;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #F1CDB3;
+}
+
+.heading5 {
+    font-weight: 400;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 130%;
+    width: 100%;
+}
+
+.adress {
+    display: flex;
+    margin-top: 30px;
+    color: #F1CDB3;
+}
+
+.footer-puppy {
+    margin: 40px 40px 0px 160px;
+}
+
+.adress-p {
+    margin-left: 15px;
+}
+
+@media screen and (min-width: 320px),
+        screen and (max-width: 425px) {
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            font-size: 5px;
+        }
+
+        .logo img {
+            width: 130px;
+        }
+
+        ul {
+            margin-left: 10%;
+        }
+
+        li {
+            padding: 0.9em 1.07em;
+            height: 24px;
+            font-family: 'Arial';
+            font-weight: 400;
+            font-size: 13px;
+            color: #CDCDCD;
+        }
+
+        .main-pic img {
+            width: 40wh;
+            height: 100vh;
+        }
+
+        .main-title1 img {
+            margin-top: -50px;
+            width: 150px;
+        }
+
+        .text1 {
+            width: 150px;
+        }
+
+        .main-title {
+            margin-bottom: 46%;
+        }
+        
+        .button1 {
+            padding: 10px 40px;
+            border-radius: 130px;
+            margin-top: 10px;
+        }
+
+        .main1 {
+            display: flex;
+            flex-direction: column;
+            height: 800px;
+            margin-top: -100px;
+            align-items: center;
+            margin-bottom: 80px;
+        }
+
+        .text2 {
+            margin-left: 5%;
+            margin-top: 10px;
+            height: 96px;
+            font-family: 'Arial';
+            font-weight: 400;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        .heading2 {
+            width: 100%;
+            height: 80px;
+            font-size: 30px;
+        }
+
+       
+    }
